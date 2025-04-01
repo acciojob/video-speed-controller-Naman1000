@@ -1,2 +1,31 @@
 
 /* Your CSS Code here. */
+.player {
+  position: relative;
+  max-width: 750px;
+}
+
+.progress {
+  flex: 10;
+  background: #eee;
+  height: 5px;
+}
+
+.progress__filled {
+  width: 50%;
+  background: #ff0000;
+  flex: 0;
+  flex-basis: 0%;
+  transition: flex-basis 0.2s;
+}
+
+.player__button {
+  background: none;
+  border: 0;
+  color: white;
+}
+
+.player__slider {
+  width: 100px;
+  margin: 0 10px;
+}
